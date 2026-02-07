@@ -1,0 +1,23 @@
+{
+  "name": "ritesh-kumar-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Ritesh Kumar - Full-Stack Engineer & Gen AI Innovator",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "update-articles": "node fetch-articles.js"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "gen-ai",
+    "langchain",
+    "full-stack"
+  ],
+  "author": "Ritesh Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
